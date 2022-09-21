@@ -12,45 +12,71 @@
     <div class="main-content">
         <form class="form-basic" id="form" onsubmit="onSubmit()">
             <div class="form-title-row">
-                <h1>Formulir Pendaftaran</h1>
-                <h2>Pekan Olahraga dan Seni Guru TKA/TPA</h2>
-                <h2>Tahun 2020</h2>
+                <h1>FORMULIR PENDAFTARAN PASIEN BARU</h1>
+                <P>PERHATIAN HARAP MENGISI FORMULIR INI DENGAN LENGKAP DAN JELAS</P>
             </div>
 
             </br>
-        
+            <section>
+            <h3 style="text-align: start;">1. IDENTITAS PASIEN</h3>
             <div class="form-row">
                 <label style="margin: auto;">
-                <span>NAMA PESERTA</span>
+                <span>NAMA PASIEN</span>
                 <input type="text" name="name" id="nama" required>
                 </label>
             </div>
       
             <div class="form-row">
                 <label>
-                <span>TEMPAT TANGGAL LAHIR</span>
+                <span>TEMPAT LAHIR</span>
+                <input type="text" name="ttl" id="ttl" required>
+                </label>
+            </div>
+            <div class="form-row">
+                <label>
+                <span>TANGGAL LAHIR</span>
                 <input type="text" name="ttl" id="ttl" required>
                 </label>
             </div>
             <div class="form-row">
             <label>
-                <span>UTUSAN UNIT TKA/TPA</span>
+                <span>JENIS KELAMIN</span>
                 <input type="text" name="unit" required>
             </label>
             </div>
             <div class="form-row">
                 <label>
-                <span>KELURAHAN/DESA</span>
-                <input type="text" name="desa" id="desa" required>
+                <span>ALAMAT</span>
+                <input type="text" name="kecamatan" id="kecamatan" required>
                 </label>
             </div>
-            
+
+            <div class="form-row">
+                <label>
+                <span>PROVINSI</span>
+                <input type="text" name="kecamatan" id="kecamatan" required>
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                <span>KABUPATEN</span>
+                <input type="text" name="kecamatan" id="kecamatan" required>
+                </label>
+            </div>
+
             <div class="form-row">
                 <label>
                 <span>KECAMATAN</span>
                 <input type="text" name="kecamatan" id="kecamatan" required>
                 </label>
             </div>
+            <div class="form-row">
+                <label>
+                <span>KELURAHAN/DESA</span>
+                <input type="text" name="desa" id="desa" required>
+                </label>
+            </div>           
 
             <div class="form-row">
                 <label>
@@ -65,8 +91,15 @@
             </div>
 
             <div class="form-row">
+                <label>
+                <span>KODE POS</span>
+                <input type="text" name="desa" id="desa" required>
+                </label>
+            </div>
+
+            <div class="form-row">
                 <label for="jenis-lomba">
-                <span>JENIS LOMBA</span>
+                <span>AGAMA</span>
                 <select
                 name="jenis-lomba"
                 id="jenis-lomba"
@@ -75,30 +108,74 @@
               </select>
                 </label>
             </div>
-            
-            </br>
-            </br>
-            </br>
 
-            <div class="form-row" style="text-align: right; width: 540px; margin-left: auto; padding: 0px;">
+            <div class="form-row">
                 <label>
-                <span style="margin-right: 0px; padding-right: 10px; text-align: right;">Sangatta, </span>
-                <input type="date" name="ttd" style="width: 150px; margin-left: 0px;">
+                <span>PENDIDIKAN TERAKHIR</span>
+                <input type="text" name="desa" id="desa" required>
                 </label>
             </div>
+
+            <div class="form-row">
+                <label>
+                <span>PEKERJAAN</span>
+                <input type="text" name="desa" id="desa" required>
+                </label>
+            </div>
+        </section>
+
+        <section>
+            <h3 style="text-align: start;">II. PENANGGUNG JAWAB PASIEN</h3>
+            <div class="form-row">
+                <label>
+                <span>HUBUNGAN DENGAN PASIEN</span>
+                <input type="text" name="desa" id="desa" required>
+                </label>
+            </div>
+            <div class="form-row">
+                <label>
+                <span>NAMA PENANGGUNG JAWAB</span>
+                <input type="text" name="desa" id="desa" required>
+                </label>
+            </div>
+            <div class="form-row">
+                <label>
+                <span>PENDIDIKAN</span>
+                <input type="text" name="desa" id="desa" required>
+                </label>
+            </div>
+            <div class="form-row">
+                <label>
+                <span>PEKERJAAN</span>
+                <input type="text" name="desa" id="desa" required>
+                </label>
+            </div>
+             
+        </section>
             
-            </br>
-            </br>
+        </br>
+        </br>
+        </br>
+            
+        <div class="form-row" style="text-align: right; width: 540px; margin-left: auto; padding: 0px;">
+            <label>
+            <span style="margin-right: 0px; padding-right: 10px; text-align: right;">Sangatta, </span>
+            <input type="date" name="ttd" style="width: 150px; margin-left: 0px;">
+            </label>
+        </div>
+
+        </br>
+        </br> 
+
             <div class="row" style="column-gap: 180px;">
                 <div class="column">
                     <div class="row" style="display: block;">
-                        <label for="myfile" style="display: block;">Kepala Unit TKA/TPA</label>
-                        <input type="file" id="myfile" name="myfile" style="width: 205px; margin-top: 20px;">
+
                     </div>
                 </div>
                 <div class="column" style="margin-right: auto; position: relative;">
                     <div class="row" style="display: block;">
-                        <label for="myfile" style="display: block;">Peserta Lomba</label>
+                        <label for="myfile" style="display: block;">Tanda Tangan</label>
                         <input type="file" id="myfile" name="myfile" style="width: 205px; margin-top: 20px;">
                     </div>
                 </div>

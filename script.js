@@ -6,11 +6,11 @@ const telp = document.getElementById('telp');
 const jenisLombaSelect = document.getElementById("jenis-lomba");
 
 const jenisLombaSelection = [
-    { value: 1, text: "Tarik Tambang (4 Perempuan + 1 Laki = 5 orang)" },
-    { value: 2, text: "Lari Estafet (4 Perempuan)" },
-    { value: 3, text: "Gobak Sodor (4 Perempuan)" },
-    { value: 4, text: "Tartil (1 orang perempuan TKA/TPA)" },
-    { value: 5, text: "Ceramah (1 orang perempuan TKA/TPA)" },
+    { value: 1, text: "Islam" },
+    { value: 2, text: "Kristen" },
+    { value: 3, text: "Hindu" },
+    { value: 4, text: "Budha" },
+    { value: 5, text: "Konghucu" },
   ];
 
 function letters (name) {
