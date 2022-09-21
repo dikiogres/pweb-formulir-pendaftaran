@@ -29,52 +29,72 @@
             <div class="form-row">
                 <label>
                 <span>TEMPAT LAHIR</span>
-                <input type="text" name="ttl" id="ttl" required>
+                <input type="text" name="tempat-lahir" id="tempat-lahir" required>
                 </label>
             </div>
             <div class="form-row">
                 <label>
                 <span>TANGGAL LAHIR</span>
-                <input type="text" name="ttl" id="ttl" required>
+                <input type="text" name="tanggal-lahir" id="tanggal-lahir" required>
                 </label>
             </div>
             <div class="form-row">
             <label>
                 <span>JENIS KELAMIN</span>
-                <input type="text" name="unit" required>
+                <input type="text" name="jenis-kelamin" id="jenis-kelamin" required>
             </label>
             </div>
             <div class="form-row">
                 <label>
                 <span>ALAMAT</span>
-                <input type="text" name="kecamatan" id="kecamatan" required>
+                <input type="text" name="alamat" id="alamat" required>
                 </label>
             </div>
 
             <div class="form-row">
                 <label>
-                <span>PROVINSI</span>
-                <input type="text" name="kecamatan" id="kecamatan" required>
+                <span for="provinsi">PROVINSI</span>
+                <select type="text" 
+                        name="provinsi" 
+                        id="provinsi" 
+                        onchange="displayKabupaten()"
+                        required>
+                </select>
                 </label>
             </div>
 
             <div class="form-row">
                 <label>
                 <span>KABUPATEN</span>
-                <input type="text" name="kecamatan" id="kecamatan" required>
+                <select type="text" 
+                        name="kabupaten" 
+                        id="kabupaten"
+                        onchange="displayKecamatan()"
+                        required>
+                </select>
                 </label>
             </div>
 
             <div class="form-row">
                 <label>
                 <span>KECAMATAN</span>
-                <input type="text" name="kecamatan" id="kecamatan" required>
+                <select type="text" 
+                        name="kecamatan" 
+                        id="kecamatan"
+                        onchange="displayKelurahan()"
+                        required>
+                </select>
                 </label>
             </div>
             <div class="form-row">
                 <label>
                 <span>KELURAHAN/DESA</span>
-                <input type="text" name="desa" id="desa" required>
+                <select  type="text" 
+                        name="kelurahan" 
+                        id="kelurahan"
+                        onchange="displayResult()"
+                        required>
+                </select>
                 </label>
             </div>           
 
@@ -93,7 +113,7 @@
             <div class="form-row">
                 <label>
                 <span>KODE POS</span>
-                <input type="text" name="desa" id="desa" required>
+                <input type="text" name="kode-pos" id="result" required>
                 </label>
             </div>
 
@@ -112,14 +132,14 @@
             <div class="form-row">
                 <label>
                 <span>PENDIDIKAN TERAKHIR</span>
-                <input type="text" name="desa" id="desa" required>
+                <input type="text" name="pendidikan" id="pendidikan" required>
                 </label>
             </div>
 
             <div class="form-row">
                 <label>
                 <span>PEKERJAAN</span>
-                <input type="text" name="desa" id="desa" required>
+                <input type="text" name="pekerjaan" id="pekerjaan" required>
                 </label>
             </div>
         </section>
@@ -129,25 +149,25 @@
             <div class="form-row">
                 <label>
                 <span>HUBUNGAN DENGAN PASIEN</span>
-                <input type="text" name="desa" id="desa" required>
+                <input type="text" name="h-pasien" id="h-pasien" required>
                 </label>
             </div>
             <div class="form-row">
                 <label>
                 <span>NAMA PENANGGUNG JAWAB</span>
-                <input type="text" name="desa" id="desa" required>
+                <input type="text" name="nama" id="nama" required>
                 </label>
             </div>
             <div class="form-row">
                 <label>
                 <span>PENDIDIKAN</span>
-                <input type="text" name="desa" id="desa" required>
+                <input type="text" name="pendidikan" id="pendidikan" required>
                 </label>
             </div>
             <div class="form-row">
                 <label>
                 <span>PEKERJAAN</span>
-                <input type="text" name="desa" id="desa" required>
+                <input type="text" name="pekerjaan" id="pekerjaan" required>
                 </label>
             </div>
              
